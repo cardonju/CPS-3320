@@ -1,21 +1,21 @@
 def letterScore(letterScore):
 
-	if letterScore in 'qzQZ':
+	if letterScore in 'qz':
 		return 10
 
-	elif letterScore in 'aeilnorstuAEILNORSTU':
+	elif letterScore in 'aeilnorstu':
 		return 1
 
-	elif letterScore in 'dgDG':
+	elif letterScore in 'dg':
 		return 2
 
-	elif letterScore in 'bcmBCM':
+	elif letterScore in 'bcm':
 		return 3
 
-	elif letterScore in 'fhvwyFHVWY':
+	elif letterScore in 'fhvwy':
 		return 4
 
-	elif letterScore in 'jxJX':
+	elif letterScore in 'jx':
 		return 8
 	
 	else:
